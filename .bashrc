@@ -137,8 +137,8 @@ function testit () {
 cd /home/oleksandr/odin/test
 code .
 }
-# Function bashrc opens .bashrc in vim 
-function bashrc () {
+# Function rc opens .bashrc in vim 
+function rc () {
 cd /home/oleksandr
 vim .bashrc
 }
