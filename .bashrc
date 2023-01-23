@@ -129,7 +129,7 @@ function gog {
 }
 # Function job which opens current project in vscode
 function job {
-	cd /home/oleksandr/repos/odin-recipes
+	cd /home/oleksandr/repos/flexbox
         code .
 }
 # Function testit open test folder in vscode
