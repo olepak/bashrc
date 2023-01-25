@@ -138,7 +138,7 @@ function job {
 
 # Function testit opens test folder in vscode
 function testit () { 
-cd /home/oleksandr/odin/test
+cd /home/oleksandr/test
 code .
 }
 
