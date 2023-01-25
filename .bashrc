@@ -120,26 +120,30 @@ fi
 
 # Alias for google-drive mount
 alias gdrive="google-drive-ocamlfuse google-drive/"
+
 #Alias for shutdown now
 alias off="shutdown now"
+
 # Function for change folder to /google-drive/webdev and open in vscode
 function gog {
 	cd /home/oleksandr/google-drive/webdev/
 	code .
 }
+
 # Function job which opens current project in vscode
 function job {
 	cd /home/oleksandr/repos/flexbox
         code .
 }
-# Function testit open test folder in vscode
+
+# Function testit opens test folder in vscode
 function testit () { 
 cd /home/oleksandr/odin/test
 code .
 }
+
 # Function rc opens .bashrc in vim 
 function rc () {
 cd /home/oleksandr
 vim .bashrc
 }
-
