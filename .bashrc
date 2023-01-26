@@ -121,11 +121,14 @@ fi
 # Alias <gdrive>  for google-drive mount
 alias gdrive="google-drive-ocamlfuse google-drive/"
 
-# Alias <for> shutdown now
+# Alias <off> shutdown now
 alias off="shutdown now"
 
-# Alias <firefox> opens firefox in a nohup mode
-alias firefox="nohup firefox "
+# Alias <frf> opens firefox in a nohup mode
+alias frf="nohup firefox "
+
+# Alias <chr> opens chrome with a nohup mode
+alias chr="nohup google-chromr"
 
 # Function <gog> change folder to /google-drive/webdev and open in vscode
 function gog {
@@ -133,7 +136,7 @@ function gog {
 	code .
 }
 
-# Function <job> which opens current project in vscode
+# Function <job> opens current project in vscode
 function job {
 	cd /home/oleksandr/repos/flexbox
         code .
