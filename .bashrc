@@ -125,10 +125,10 @@ alias gdrive="google-drive-ocamlfuse google-drive/"
 alias off="shutdown now"
 
 # Alias <frf> opens firefox in a nohup mode
-alias frf="nohup firefox "
+alias frf="nohup firefox &"
 
 # Alias <chr> opens chrome with a nohup mode
-alias chr="nohup google-chromr"
+alias chr="nohup google-chrome &"
 
 # Function <gog> change folder to /google-drive/webdev and open in vscode
 function gog {
