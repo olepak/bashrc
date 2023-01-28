@@ -153,3 +153,11 @@ function rc () {
 cd /home/oleksandr
 vim .bashrc
 }
+# Function <plan> opens plan folder in vscode
+function plan () {
+	cd /home/oleksandr/repos/plan
+	git pull
+        code .
+}
+
+git pull
