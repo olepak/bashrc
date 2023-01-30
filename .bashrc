@@ -136,9 +136,10 @@ function job {
         code .
 }
 
-# Function <testit> opens test folder in vscode
-function testit () { 
-cd /home/oleksandr/test
+# Function <tst> opens test folder in vscode
+function tst () { 
+cd /home/oleksandr/repos/test
+git pull
 code .
 }
 
