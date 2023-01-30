@@ -130,12 +130,6 @@ alias frf="nohup firefox &"
 # Alias <chr> opens chrome with a nohup mode
 alias chr="nohup google-chrome &"
 
-# Function <gog> change folder to /google-drive/webdev and open in vscode
-function gog {
-	cd /home/oleksandr/google-drive/webdev/
-	code .
-}
-
 # Function <job> opens current project in vscode
 function job {
 	cd /home/oleksandr/repos/flexbox
