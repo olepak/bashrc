@@ -154,5 +154,9 @@ function plan () {
 	git pull
         code .
 }
-
+# Function <upd> pushes updates on the github with a "upd" message
+function upd () {
+	git commit -am"upd"
+	git push
+}
 git pull
