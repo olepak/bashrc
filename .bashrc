@@ -127,9 +127,6 @@ alias off="shutdown now"
 # Alias <frf> opens firefox in a nohup mode
 alias frf="nohup firefox &"
 
-# Alias <chr> opens chrome with a nohup mode
-alias chr="nohup google-chrome &"
-
 # Function <job> opens current project in vscode
 function job {
 	cd /home/oleksandr/repos/flexbox
