@@ -129,31 +129,37 @@ alias frf="nohup firefox &"
 
 # Function <job> opens current project in vscode
 function job {
-	cd /home/oleksandr/repos/flexbox
-        code .
+ cd /home/oleksandr/repos/flexbox
+ code .
 }
 
 # Function <tst> opens test folder in vscode
 function tst () { 
-cd /home/oleksandr/repos/test
-git pull
-code .
+ cd /home/oleksandr/repos/test
+ git pull
+ code .
 }
 
 # Function <rc> opens .bashrc in vim 
 function rc () {
-cd /home/oleksandr
-vim .bashrc
+ cd /home/oleksandr
+ vim .bashrc
 }
 # Function <plan> opens plan folder in vscode
 function plan () {
-	cd /home/oleksandr/repos/plan
-	git pull
-        code .
+ cd /home/oleksandr/repos/plan
+ git pull
+ code .
 }
 # Function <upd> pushes updates on the github with a "upd" message
 function upd () {
-	git commit -am"upd"
-	git push
+ git commit -am"upd"
+ git push
+}
+# Function <ref> opens ref folder in vs code 
+function ref () {
+ cd /home/oleksandr/repos/ref
+ git pull
+ code .
 }
 git pull
