@@ -124,8 +124,6 @@ alias gdrive="google-drive-ocamlfuse google-drive/"
 # Alias <off> shutdown now
 alias off="shutdown now"
 
-# Alias <frf> opens firefox in a nohup mode
-alias frf="nohup firefox &"
 
 # Function <job> opens current project in vscode
 function job {
@@ -145,21 +143,30 @@ function rc () {
  cd /home/oleksandr
  vim .bashrc
 }
+
 # Function <plan> opens plan folder in vscode
 function plan () {
  cd /home/oleksandr/repos/plan
  git pull
  code .
 }
+
 # Function <upd> pushes updates on the github with a "upd" message
 function upd () {
  git commit -am"upd"
  git push
 }
+
 # Function <ref> opens ref folder in vs code 
 function ref () {
  cd /home/oleksandr/repos/ref
  git pull
  code .
+}
+
+# Function <frf> opens firefox in a nohup mode
+function frf () {
+ cd /home/oleksandr
+ nohup firefox &
 }
 git pull
