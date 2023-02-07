@@ -127,8 +127,8 @@ alias off="shutdown now"
 
 # Function <job> opens current project in vscode
 function job {
- cd /home/oleksandr/repos/flexbox
- code .
+ cd /home/oleksandr/repos/css-exercises/flex
+ # code .
 }
 
 # Function <tst> opens test folder in vscode
