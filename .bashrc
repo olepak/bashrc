@@ -153,7 +153,8 @@ function plan () {
 
 # Function <upd> pushes updates on the github with a "upd" message
 function upd () {
- git commit -am"upd"
+	git add .
+ git commit -m"upd"
  git push
 }
 
