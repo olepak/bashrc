@@ -127,23 +127,16 @@ alias off="shutdown now"
 
 # Function <job> opens current project in vscode
 function job {
-<<<<<<< HEAD
-cd /home/oleksandr/repos/03-odin-rpsgame
-
-=======
- cd home/oleksandr/repos/03-odin-rpsgame
->>>>>>> d6a47c259e7d26e73869ace5d7d20f490fa630c9
- code .
 }
 
 # Function <tst> opens test folder in vscode
-function tst () { 
+function tst () {
  cd /home/oleksandr/repos/test
  git pull
  code .
 }
 
-# Function <rc> opens .bashrc in vim 
+# Function <rc> opens .bashrc in vim
 function rc () {
  cd /home/oleksandr
  vim .bashrc
@@ -159,11 +152,11 @@ function plan () {
 # Function <upd> pushes updates on the github with a "upd" message
 function upd () {
 	git add .
- git commit 
+ git commit
  git push
 }
 
-# Function <ref> opens ref folder in vs code 
+# Function <ref> opens ref folder in vs code
 function ref () {
  cd /home/oleksandr/repos/ref
  git pull
