@@ -127,8 +127,12 @@ alias off="shutdown now"
 
 # Function <job> opens current project in vscode
 function job {
+<<<<<<< HEAD
 cd /home/oleksandr/repos/03-odin-rpsgame
 
+=======
+ cd home/oleksandr/repos/03-odin-rpsgame
+>>>>>>> d6a47c259e7d26e73869ace5d7d20f490fa630c9
  code .
 }
 
