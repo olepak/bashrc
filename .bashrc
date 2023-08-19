@@ -127,7 +127,7 @@ alias off="shutdown now"
 
 # Function <job> opens current project in vscode
 function job {
-cd /home/oleksandr/repos/03-odin-rpsgame
+cd /home/oleksandr/repos/04-odin-javascript-exercises
 code .
 }
 
@@ -171,3 +171,7 @@ function frf () {
  nohup firefox &
 }
 git pull
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
