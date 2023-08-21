@@ -128,7 +128,7 @@ alias off="shutdown now"
 # Function <job> opens current project in vscode
 function job {
 cd /home/oleksandr/repos/04-odin-javascript-exercises
-code .
+# code .
 }
 
 # Function <tst> opens test folder in vscode
